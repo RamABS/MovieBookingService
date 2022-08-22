@@ -9,6 +9,7 @@ The Movie Booking Service provides below APIs,
 1. Restbed - framework
 2. C++ Complier
 3. JSON library for Modern C++ - nlohmann
+4. Boost Library - Thread component
 4. CMake
 
 ### Tools Installation
