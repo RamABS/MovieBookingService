@@ -47,9 +47,6 @@ void CDatabase::connect_movie_to_theaters(int movie_id, const set<int>& theater_
         list<int> avail_seats(20);
         std::iota(avail_seats.begin(), avail_seats.end(), 1);
 
-        for(int i = 1; i <= m_map_theaters[theater].nTotalSeats; ++i)
-            avail_seats.push_back(i);
-
         m_movie_bookings[movie_id][theater] = avail_seats;
     } 
 }
